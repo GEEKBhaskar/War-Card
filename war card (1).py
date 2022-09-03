@@ -240,6 +240,7 @@ while game_on:
                 print("player one unable to declair war!")
                 print("PLAYER TWO WINS!")
                 game_on = False
+                break
                 
             elif len(player_two.all_cards) < 5:
                 print("player two unable to declair war!")
